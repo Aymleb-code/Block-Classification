@@ -1,5 +1,9 @@
 # Block-Classification
 
+### Code jupyter: Projet.ipynb
+### API: Model.pkl et API.rar
+### PPT: Blocks Classification.pdf
+
 #### Libraries requises:
 pandas
 matplotlib.pyplot
