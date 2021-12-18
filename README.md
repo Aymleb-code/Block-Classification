@@ -1,5 +1,13 @@
 # Block-Classification
 
+#### Libraries requises:
+pandas
+matplotlib.pyplot
+seaborn
+numpy
+tkinter
+sklearn
+random
 
 
 # Identification de la problématique:
@@ -33,6 +41,7 @@ Choix du meilleur K par comparaison de leurs accuracies respectives, choix de k=
 
 Résultat: 88.03% d'accuraccy globale, 83.3% de précision dans la détection de texte
 
+
 ### RandomForest:
 
 Choix du meilleur paramètre par comparaison de leurs accuracies respectives, choix de depth=7. 
@@ -45,3 +54,17 @@ Resultat: 78.17% d'accuraccy globale, 72.2% de précision dans la détection de 
 
 Le meilleur model est donc bien évidemment le model de RandomForest qui permet d'avoir une précision 
 de 97.1% pour la détéction de texte 
+
+
+
+
+# API:
+
+#### Libraries nécessaires: 
+xlrd
+pandas
+flask
+numpy
+scikitlearn
+pickle
+matplotlib
