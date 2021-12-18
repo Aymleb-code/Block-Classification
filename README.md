@@ -10,20 +10,20 @@ sklearn
 random
 
 
-# Identification de la problématique:
+## Identification de la problématique:
 
 Développer un modèle de prédiction permettant de détecter très efficacement les zones de textes. 
 
 
 
-# Preprocess du dataset:
+## Preprocess du dataset:
 
 Equilibrage des différentes classes représentées dans le dataset (la classe text étant largement 
 prédominante (89.8%)  ce qui pouvait grandement nuire à la performance du model)
 
 
 
-# Data Visualisation:
+## Data Visualisation:
 
 Étude des corrélations 
 Les variables les plus corrélées à la classe sont height, area and P_and.
@@ -31,7 +31,7 @@ Nous avons essayé de réstreindre notre futur model à ces 3 variables mais cel
 
 
 
-# Choix et optimisation du model de prédiction de classes:
+## Choix et optimisation du model de prédiction de classes:
 
 Test de différents modeles: KNN, RandomForest et Logistic Regression 
 
@@ -58,7 +58,7 @@ de 97.1% pour la détéction de texte
 
 
 
-# API:
+## API:
 
 #### Libraries nécessaires: 
 xlrd
